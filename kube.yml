@@ -1,0 +1,251 @@
+apiVersion: v1
+items:
+- apiVersion: v1
+  kind: Service
+  metadata:
+    creationTimestamp: null
+    labels:
+      io.kompose.service: adminer-2
+    name: adminer-2
+  spec:
+    ports:
+    - name: "8087"
+      port: 8087
+      targetPort: 8080
+    selector:
+      io.kompose.service: adminer-2
+  status:
+    loadBalancer: {}
+- apiVersion: v1
+  kind: Service
+  metadata:
+    creationTimestamp: null
+    labels:
+      io.kompose.service: ci4-db-2
+    name: ci4-db-2
+  spec:
+    ports:
+    - name: "33065"
+      port: 33065
+      targetPort: 3306
+    selector:
+      io.kompose.service: ci4-db-2
+  status:
+    loadBalancer: {}
+- apiVersion: v1
+  kind: Service
+  metadata:
+    creationTimestamp: null
+    labels:
+      io.kompose.service: nginx-2
+    name: nginx-2
+  spec:
+    ports:
+    - name: "80"
+      port: 80
+      targetPort: 80
+    selector:
+      io.kompose.service: nginx-2
+  status:
+    loadBalancer: {}
+    #deployment adminer-2
+- apiVersion: apps/v1
+  kind: Deployment
+  metadata:
+    creationTimestamp: null
+    labels:
+      io.kompose.service: adminer-2
+    name: adminer-2
+  spec:
+    replicas: 1
+    strategy: {}
+    selector:
+      matchLabels:
+        io.kompose.service: adminer-2
+    template:
+      metadata:
+        creationTimestamp: null
+        labels:
+          io.kompose.service: adminer-2
+      spec:
+        containers:
+        - image: adminer:latest
+          name: adminer-2
+          ports:
+          - containerPort: 8081
+          resources: {}
+        restartPolicy: Always
+  status: {}
+  #deployment ci4-db-2
+- apiVersion: apps/v1
+  kind: Deployment
+  metadata:
+    creationTimestamp: null
+    labels:
+      io.kompose.service: ci4-db-2
+    name: ci4-db-2
+  spec:
+    replicas: 1
+    selector:
+      matchLabels:
+        io.kompose.service: ci4-db-2
+    strategy:
+      type: Recreate
+    template:
+      metadata:
+        creationTimestamp: null
+        labels:
+          io.kompose.service: ci4-db-2
+      spec:
+        containers:
+        - env:
+          - name: MYSQL_ROOT_PASSWORD
+            value: example
+          image: mariadb
+          name: ci4-db-2
+          ports:
+          - containerPort: 3306
+          resources: {}
+          volumeMounts:
+          - mountPath: /var/lib/mysql_ci4-2
+            name: ci4-db-data-2
+        restartPolicy: Always
+        volumes:
+        - name: ci4-db-data-2
+          persistentVolumeClaim:
+            claimName: ci4-db-data-2
+  status: {}
+- apiVersion: v1
+  kind: PersistentVolumeClaim
+  metadata:
+    creationTimestamp: null
+    labels:
+      io.kompose.service: ci4-db-data-2
+    name: ci4-db-data-2
+  spec:
+    accessModes:
+    - ReadWriteOnce
+    resources:
+      requests:
+        storage: 100Mi
+  status: {}
+  #deployment nginx-2
+- apiVersion: apps/v1
+  kind: Deployment
+  metadata:
+    creationTimestamp: null
+    labels:
+      io.kompose.service: nginx-2
+    name: nginx-2
+  spec:
+    replicas: 1
+    selector:
+      matchLabels:
+        io.kompose.service: nginx-2
+    strategy:
+      type: Recreate
+    template:
+      metadata:
+        creationTimestamp: null
+        labels:
+          io.kompose.service: nginx-2
+      spec:
+        containers:
+        - image: nginx:1.23-alpine
+          name: ci4-nginx-2
+          ports:
+          - containerPort: 80
+          resources: {}
+          volumeMounts:
+          - mountPath: /docker/nginx
+            name: nginx-claim0
+          - mountPath: /docker/php_app
+            name: nginx-claim1
+        restartPolicy: Always
+        volumes:
+        - name: nginx-claim0
+          persistentVolumeClaim:
+            claimName: nginx-claim0
+        - name: nginx-claim1
+          persistentVolumeClaim:
+            claimName: nginx-claim1
+  status: {}
+- apiVersion: v1
+  kind: PersistentVolumeClaim
+  metadata:
+    creationTimestamp: null
+    labels:
+      io.kompose.service: nginx-claim0
+    name: nginx-claim0
+  spec:
+    accessModes:
+    - ReadWriteOnce
+    resources:
+      requests:
+        storage: 100Mi
+  status: {}
+- apiVersion: v1
+  kind: PersistentVolumeClaim
+  metadata:
+    creationTimestamp: null
+    labels:
+      io.kompose.service: nginx-claim1
+    name: nginx-claim1
+  spec:
+    accessModes:
+    - ReadWriteOnce
+    resources:
+      requests:
+        storage: 100Mi
+  status: {}
+  #deployment php-app-2
+- apiVersion: apps/v1
+  kind: Deployment
+  metadata:
+    creationTimestamp: null
+    labels:
+      io.kompose.service: php-app-2
+    name: php-app-2
+  spec:
+    replicas: 1
+    selector:
+      matchLabels:
+        io.kompose.service: php-app-2
+    strategy:
+      type: Recreate
+    template:
+      metadata:
+        creationTimestamp: null
+        labels:
+          io.kompose.service: php-app-2
+      spec:
+        containers:
+        - image: noksupawarin/ci4-phpdemo:1.2
+          name: ci4-php-app-2
+          resources: {}
+          volumeMounts:
+          - mountPath: /docker/php_app/
+            name: php-app-claim0
+        restartPolicy: Always
+        volumes:
+        - name: php-app-claim0
+          persistentVolumeClaim:
+            claimName: php-app-claim0
+  status: {}
+- apiVersion: v1
+  kind: PersistentVolumeClaim
+  metadata:
+    creationTimestamp: null
+    labels:
+      io.kompose.service: php-app-claim0
+    name: php-app-claim0
+  spec:
+    accessModes:
+    - ReadWriteOnce
+    resources:
+      requests:
+        storage: 100Mi
+  status: {}
+kind: List
+metadata: {}
+

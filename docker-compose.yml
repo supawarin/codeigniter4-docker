@@ -1,0 +1,40 @@
+version: "3"
+services:
+   nginx:
+       container_name: ci4_nginx
+       image: nginx:1.17.8-alpine
+       restart: always
+       ports:
+           - ${NGINX_PORT}:80
+       volumes:
+           - ./docker/nginx/default.conf:/etc/nginx/conf.d/default.conf
+           - .:/php_app
+       links:
+           - php_app
+
+   php_app:
+       build: docker/php_app
+       container_name: ci4_php_app
+       restart: always
+       volumes:
+           - .:/php_app
+
+   ci4_db:
+      image: mariadb
+      restart: always
+      environment:
+        MYSQL_ROOT_PASSWORD: example
+      ports:
+      - 33066:3306
+      volumes: 
+      - ci4_db_data:/var/lib/mysql_ci4
+
+    
+   adminer:
+      image: adminer
+      restart: always
+      ports:
+      - 8008:8080
+
+volumes:
+  ci4_db_data:   
