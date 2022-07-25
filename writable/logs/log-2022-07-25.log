@@ -1,0 +1,412 @@
+CRITICAL - 2022-07-25 01:04:06 --> syntax error, unexpected 'if' (T_IF)
+#0 /php_app/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/php_app/app/Co...')
+#1 /php_app/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /php_app/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-25 01:04:08 --> syntax error, unexpected 'if' (T_IF)
+#0 /php_app/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/php_app/app/Co...')
+#1 /php_app/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /php_app/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-25 01:04:10 --> syntax error, unexpected 'if' (T_IF)
+#0 /php_app/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/php_app/app/Co...')
+#1 /php_app/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /php_app/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-25 01:04:20 --> syntax error, unexpected 'if' (T_IF)
+#0 /php_app/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/php_app/app/Co...')
+#1 /php_app/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /php_app/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-25 02:48:21 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-25 03:16:58 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-25 03:18:16 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-25 03:18:19 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-25 03:18:53 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-25 03:19:00 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-25 03:19:03 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-25 03:21:42 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-25 03:32:41 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-25 04:25:49 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-25 04:26:09 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-25 04:28:08 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-25 04:35:13 --> syntax error, unexpected 'public' (T_PUBLIC), expecting ';' or '{'
+#0 /php_app/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/php_app/app/Co...')
+#1 /php_app/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /php_app/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-25 04:36:10 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-25 04:38:12 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-25 04:38:23 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-25 04:38:49 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-25 04:39:42 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-25 04:43:12 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-25 04:43:57 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-25 04:44:12 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-25 04:46:58 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-25 05:09:44 --> Allowed fields must be specified for model: App\Models\UserModel
+#0 /php_app/vendor/codeigniter4/framework/system/Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 /php_app/vendor/codeigniter4/framework/system/Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 /php_app/app/Controllers/Register.php(82): CodeIgniter\Model->insert(Array)
+#3 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Register->saveUser()
+#4 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /php_app/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-25 05:20:34 --> Allowed fields must be specified for model: App\Models\UserModel
+#0 /php_app/vendor/codeigniter4/framework/system/Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 /php_app/vendor/codeigniter4/framework/system/Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 /php_app/app/Controllers/Register.php(82): CodeIgniter\Model->insert(Array)
+#3 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Register->saveUser()
+#4 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /php_app/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-25 05:21:23 --> Allowed fields must be specified for model: App\Models\UserModel
+#0 /php_app/vendor/codeigniter4/framework/system/Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 /php_app/vendor/codeigniter4/framework/system/Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 /php_app/app/Controllers/Register.php(82): CodeIgniter\Model->insert(Array)
+#3 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Register->saveUser()
+#4 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /php_app/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-25 05:45:44 --> Allowed fields must be specified for model: App\Models\UserModel
+#0 /php_app/vendor/codeigniter4/framework/system/Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 /php_app/vendor/codeigniter4/framework/system/Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 /php_app/app/Controllers/Register.php(82): CodeIgniter\Model->insert(Array)
+#3 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Register->saveUser()
+#4 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /php_app/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-25 05:46:28 --> Allowed fields must be specified for model: App\Models\UserModel
+#0 /php_app/vendor/codeigniter4/framework/system/Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\User...')
+#1 /php_app/vendor/codeigniter4/framework/system/Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 /php_app/app/Controllers/Register.php(82): CodeIgniter\Model->insert(Array)
+#3 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Register->saveUser()
+#4 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /php_app/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-25 05:50:56 --> Unable to connect to the database.
+#0 /php_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /php_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#2 /php_app/vendor/codeigniter4/framework/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#3 /php_app/app/Controllers/Register.php(82): CodeIgniter\Model->insert(Array)
+#4 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Register->saveUser()
+#5 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /php_app/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-25 05:55:16 --> Class '\CodeIgniter\Database\MySQL\Connection' not found
+#0 /php_app/vendor/codeigniter4/framework/system/Database/Config.php(115): CodeIgniter\Database\Database->load(Array, 'default')
+#1 /php_app/vendor/codeigniter4/framework/system/Model.php(352): CodeIgniter\Database\Config::connect('default')
+#2 /php_app/app/Controllers/Register.php(81): CodeIgniter\Model->__construct()
+#3 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Register->saveUser()
+#4 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /php_app/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-25 05:56:05 --> Class '\CodeIgniter\Database\PDO_MySQL\Connection' not found
+#0 /php_app/vendor/codeigniter4/framework/system/Database/Config.php(115): CodeIgniter\Database\Database->load(Array, 'default')
+#1 /php_app/vendor/codeigniter4/framework/system/Model.php(352): CodeIgniter\Database\Config::connect('default')
+#2 /php_app/app/Controllers/Register.php(81): CodeIgniter\Model->__construct()
+#3 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Register->saveUser()
+#4 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /php_app/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-25 05:57:41 --> Unable to connect to the database.
+#0 /php_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /php_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#2 /php_app/vendor/codeigniter4/framework/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#3 /php_app/app/Controllers/Register.php(82): CodeIgniter\Model->insert(Array)
+#4 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Register->saveUser()
+#5 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /php_app/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-25 06:01:07 --> Unable to connect to the database.
+#0 /php_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /php_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#2 /php_app/vendor/codeigniter4/framework/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#3 /php_app/app/Controllers/Register.php(82): CodeIgniter\Model->insert(Array)
+#4 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Register->saveUser()
+#5 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /php_app/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-25 06:02:03 --> Unable to connect to the database.
+#0 /php_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /php_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#2 /php_app/vendor/codeigniter4/framework/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#3 /php_app/app/Controllers/Register.php(82): CodeIgniter\Model->insert(Array)
+#4 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Register->saveUser()
+#5 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /php_app/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-25 06:02:42 --> Unable to connect to the database.
+#0 /php_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /php_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#2 /php_app/vendor/codeigniter4/framework/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#3 /php_app/app/Controllers/Register.php(82): CodeIgniter\Model->insert(Array)
+#4 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Register->saveUser()
+#5 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /php_app/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-25 06:02:51 --> Unable to connect to the database.
+#0 /php_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /php_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#2 /php_app/vendor/codeigniter4/framework/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#3 /php_app/app/Controllers/Register.php(82): CodeIgniter\Model->insert(Array)
+#4 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Register->saveUser()
+#5 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /php_app/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-25 06:37:24 --> Unable to connect to the database.
+#0 /php_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /php_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#2 /php_app/vendor/codeigniter4/framework/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#3 /php_app/app/Controllers/Register.php(82): CodeIgniter\Model->insert(Array)
+#4 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Register->saveUser()
+#5 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /php_app/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-25 06:53:17 --> Unable to connect to the database.
+#0 /php_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /php_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#2 /php_app/vendor/codeigniter4/framework/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#3 /php_app/app/Controllers/Register.php(82): CodeIgniter\Model->insert(Array)
+#4 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Register->saveUser()
+#5 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /php_app/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-25 06:55:48 --> Unable to connect to the database.
+#0 /php_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /php_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#2 /php_app/vendor/codeigniter4/framework/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#3 /php_app/app/Controllers/Register.php(82): CodeIgniter\Model->insert(Array)
+#4 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Register->saveUser()
+#5 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /php_app/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-25 06:59:29 --> Unable to connect to the database.
+#0 /php_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /php_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#2 /php_app/vendor/codeigniter4/framework/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#3 /php_app/app/Controllers/Register.php(82): CodeIgniter\Model->insert(Array)
+#4 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Register->saveUser()
+#5 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /php_app/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-25 06:59:54 --> Unable to connect to the database.
+#0 /php_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /php_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#2 /php_app/vendor/codeigniter4/framework/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#3 /php_app/app/Controllers/Register.php(82): CodeIgniter\Model->insert(Array)
+#4 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Register->saveUser()
+#5 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /php_app/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-25 07:04:10 --> Unable to connect to the database.
+#0 /php_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /php_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#2 /php_app/vendor/codeigniter4/framework/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#3 /php_app/app/Controllers/Register.php(82): CodeIgniter\Model->insert(Array)
+#4 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Register->saveUser()
+#5 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /php_app/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-25 07:04:26 --> Unable to connect to the database.
+#0 /php_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /php_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#2 /php_app/vendor/codeigniter4/framework/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#3 /php_app/app/Controllers/Register.php(82): CodeIgniter\Model->insert(Array)
+#4 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Register->saveUser()
+#5 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /php_app/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-25 07:09:29 --> Unable to connect to the database.
+#0 /php_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /php_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#2 /php_app/vendor/codeigniter4/framework/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#3 /php_app/app/Controllers/Register.php(82): CodeIgniter\Model->insert(Array)
+#4 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Register->saveUser()
+#5 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /php_app/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-25 07:09:48 --> Unable to connect to the database.
+#0 /php_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /php_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#2 /php_app/vendor/codeigniter4/framework/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#3 /php_app/app/Controllers/Register.php(82): CodeIgniter\Model->insert(Array)
+#4 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Register->saveUser()
+#5 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /php_app/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-25 07:14:36 --> Unable to connect to the database.
+#0 /php_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /php_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#2 /php_app/vendor/codeigniter4/framework/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#3 /php_app/app/Controllers/Register.php(82): CodeIgniter\Model->insert(Array)
+#4 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Register->saveUser()
+#5 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /php_app/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-25 07:14:57 --> Unable to connect to the database.
+#0 /php_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /php_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#2 /php_app/vendor/codeigniter4/framework/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#3 /php_app/app/Controllers/Register.php(82): CodeIgniter\Model->insert(Array)
+#4 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Register->saveUser()
+#5 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /php_app/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-25 07:15:30 --> Unable to connect to the database.
+#0 /php_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /php_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#2 /php_app/vendor/codeigniter4/framework/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#3 /php_app/app/Controllers/Register.php(82): CodeIgniter\Model->insert(Array)
+#4 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Register->saveUser()
+#5 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /php_app/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-25 07:15:48 --> Unable to connect to the database.
+#0 /php_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /php_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#2 /php_app/vendor/codeigniter4/framework/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#3 /php_app/app/Controllers/Register.php(82): CodeIgniter\Model->insert(Array)
+#4 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Register->saveUser()
+#5 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /php_app/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-25 07:28:37 --> Unable to connect to the database.
+#0 /php_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /php_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#2 /php_app/vendor/codeigniter4/framework/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#3 /php_app/app/Controllers/Register.php(82): CodeIgniter\Model->insert(Array)
+#4 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Register->saveUser()
+#5 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /php_app/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-25 07:41:12 --> Unable to connect to the database.
+#0 /php_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /php_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#2 /php_app/vendor/codeigniter4/framework/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#3 /php_app/app/Controllers/Register.php(82): CodeIgniter\Model->insert(Array)
+#4 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Register->saveUser()
+#5 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /php_app/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-25 07:41:37 --> Unable to connect to the database.
+#0 /php_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /php_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#2 /php_app/vendor/codeigniter4/framework/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#3 /php_app/app/Controllers/Register.php(82): CodeIgniter\Model->insert(Array)
+#4 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Register->saveUser()
+#5 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /php_app/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-25 07:47:48 --> Unable to connect to the database.
+#0 /php_app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /php_app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#2 /php_app/vendor/codeigniter4/framework/system/Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#3 /php_app/app/Controllers/Register.php(82): CodeIgniter\Model->insert(Array)
+#4 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Register->saveUser()
+#5 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 /php_app/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /php_app/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-25 07:52:16 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-25 07:52:46 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

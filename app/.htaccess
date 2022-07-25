@@ -1,6 +1,16 @@
-<IfModule authz_core_module>
+<!--<IfModule authz_core_module>
     Require all denied
 </IfModule>
 <IfModule !authz_core_module>
     Deny from all
-</IfModule>
+</IfModule>-->
+
+Options +FollowSymLinks
+Options -Indexes
+DirectoryIndex index.php
+RewriteEngine on
+RewriteCond $1 !^(index\.php|public|assets|robots\.txt)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond ^(.*)$ index.php/$1 [L,QSA]
+

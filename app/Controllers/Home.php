@@ -7,6 +7,9 @@ class Home extends BaseController
 		return view('welcome_message');
 	}
 
+
+	# http://example.com/news/latest/10
+	# http://example.com/[controller-class]/[controller-method]/[arguments]
 	//--------------------------------------------------------------------
 
 }

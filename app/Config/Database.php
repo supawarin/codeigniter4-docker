@@ -6,7 +6,8 @@
  * @package Config
  */
 
-class Database extends \CodeIgniter\Database\Config
+use CodeIgniter\Database\Config;
+class Database extends Config
 {
 	/**
 	 * The directory that holds the Migrations
@@ -30,15 +31,15 @@ class Database extends \CodeIgniter\Database\Config
 	 * @var array
 	 */
 	public $default = [
-		'DSN'      => '',
-		'hostname' => 'localhost',
-		'username' => '',
-		'password' => '',
-		'database' => '',
+		'DSN' => '',
+		'hostname' => 'ci4', 
+		'username' => 'root',
+		'password' => 'example',
+		'database' => 'codeigniter4',
 		'DBDriver' => 'MySQLi',
 		'DBPrefix' => '',
-		'pConnect' => false,
-		'DBDebug'  => (ENVIRONMENT !== 'production'),
+		'pConnect' => true,
+		'DBDebug'  => true,            #(ENVIRONMENT !== 'development'),                             #  true,        
 		'cacheOn'  => false,
 		'cacheDir' => '',
 		'charset'  => 'utf8',
@@ -48,8 +49,9 @@ class Database extends \CodeIgniter\Database\Config
 		'compress' => false,
 		'strictOn' => false,
 		'failover' => [],
-		'port'     => 3306,
+		'port'     => 33064,
 	];
+	
 
 	/**
 	 * This database connection is used when
@@ -59,7 +61,7 @@ class Database extends \CodeIgniter\Database\Config
 	 */
 	public $tests = [
 		'DSN'      => '',
-		'hostname' => '127.0.0.1',
+		'hostname' => '127.0.0.1', 
 		'username' => '',
 		'password' => '',
 		'database' => ':memory:',

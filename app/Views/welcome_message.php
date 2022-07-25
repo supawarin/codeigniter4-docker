@@ -221,7 +221,7 @@
 
 		<h1>Welcome to CodeIgniter My Nok Project ci4 <?= CodeIgniter\CodeIgniter::CI_VERSION ?></h1>
 
-		<h2>Nok test codeigniter4 on docker 2022</h2>
+		<h2>Nok test codeigniter4 on docker July 2022</h2>
 
 	</div>
 
@@ -231,17 +231,13 @@
 
 <section>
 
-	<h1>About this page</h1>
+	<a href="/register">
+         <h3>Register</h3>
+	</a>
 
-	<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
-
-	<p>If you would like to edit this page you will find it located at:</p>
-
-	<pre><code>app/Views/welcome_message.php</code></pre>
-
-	<p>The corresponding controller for this page can be found at:</p>
-
-	<pre><code>app/Controllers/Home.php</code></pre>
+	<a href="/login">
+         <h3>Login</h3>
+	</a>
 
 </section>
 
